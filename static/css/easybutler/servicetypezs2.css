@@ -1,0 +1,191 @@
+* {
+    margin: 0
+}
+
+body {
+    font-size: 0
+}
+
+#head {
+    height: .48rem;
+    line-height: .48rem;
+    padding: 0 .3rem;
+    box-sizing: border-box;
+    font-family: PingFangSC-Regular;
+    font-size: .24rem;
+    color: #999999;
+    letter-spacing: 0.03px;
+    background: #F4F4F4;
+}
+
+#home {
+    padding: .4rem .3rem 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.homeitem {
+    width: 2rem;
+    height: .96rem;
+    background: #F6F6F6;
+    border: .02rem solid #E9E9E9;
+    border-radius: .06rem;
+    box-sizing: border-box;
+    font-family: PingFangSC-Regular;
+    font-size: .24rem;
+    color: #333333;
+    letter-spacing: 0.03px;
+    padding: .14rem .26rem;
+    margin-bottom: .4rem;
+    text-align: center;
+}
+
+#week {
+    margin-top: .4rem;
+    overflow-x: scroll;
+}
+
+#week>div {
+    display: inline-block;
+    white-space: nowrap;
+    height: .6rem
+}
+
+#box div:nth-child(1) {
+    margin-left: .45rem
+}
+
+#box div {
+    margin-right: .8rem;
+    font-family: PingFangSC-Regular;
+    font-size: .28rem;
+    color: #333333;
+    letter-spacing: 0.03px;
+    display: inline-block;
+    position: relative
+}
+
+.check1 {
+    background: #f76260;
+    color: #ffffff;
+    border: none
+}
+
+.check2:after {
+    content: '';
+    border-top: .03rem solid #f76260;
+    border-bottom: .03rem solid #f76260;
+    width: 100%;
+    border-radius: .06rem;
+    height: 0;
+    position: absolute;
+    bottom: -.05rem;
+    left: 0;
+}
+
+#package {
+    width: 6.9rem;
+    margin: .8rem auto;
+}
+
+.packitem {
+    height: 1.6rem;
+    background: #F4F4F4;
+    border-radius: .06rem;
+    padding: .32rem .4rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .4rem
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.leftone {
+    font-family: PingFang-SC-Medium;
+    letter-spacing: 0.02px;
+    height: .48rem;
+}
+
+.leftone>span:nth-child(1) {
+    font-size: .32rem;
+    color: #333333;
+}
+
+.leftone>span:nth-child(2) {
+    font-size: .2rem;
+    color: #2A2A2A;
+}
+
+.lefttwo {
+    font-size: .24rem;
+    color: #333333;
+}
+
+.right {
+    font-family: Arial-BoldMT;
+    font-size: .48rem;
+    color: #ED5E5C;
+    letter-spacing: 0.03px;
+}
+
+::-webkit-scrollbar {
+    /*隐藏滚轮*/
+    display: none;
+}
+
+.checkred {
+    background: #f76260 !important
+}
+
+.checkred>div {
+    color: #ffffff !important
+}
+
+.checkred>div>div {
+    color: #ffffff !important
+}
+
+.checkred>div>div>span {
+    color: #ffffff !important
+}
+
+#bottom {
+    height: .96rem
+}
+
+#foot {
+    height: .96rem;
+    line-height: .96rem;
+    font-family: PingFangSC-Regular;
+    font-size: .36rem;
+    letter-spacing: 0.06px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.20);
+}
+
+#foot .pre {
+    color: #ED5E5C;
+    background: #ffffff;
+    text-align: center;
+    width: 57%;
+}
+
+#foot .appointment {
+    width: 43%;
+    color: #ffffff;
+    background: #ED5E5C;
+    text-align: center;
+}

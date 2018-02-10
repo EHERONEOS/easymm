@@ -1,0 +1,66 @@
+#Login_head{
+    width: 7.5rem;
+    height: 6.48rem;
+    background-image: url(http://image.qsmam.com/qsmm_loading_bg.png);
+    background-size: cover;
+    position: relative;
+}
+#Login_logo{
+    width: 1.4rem;
+    height: 1.4rem;
+    background-image: url(http://image.qsmam.com/qs-lg.png);
+    background-size: cover;
+    position: absolute;
+    top: 2.2rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+#Login_content{
+    width: 6.6rem;
+    height: 5.5rem;
+    border-radius: 0.1rem;
+    box-shadow: 0 4px 9px 0 rgba(247,98,96,0.25);
+    background: white;
+    position: absolute;
+    top: 6.09rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+}
+#Login_content .yd-btn-warning{
+    width: 2rem
+}
+#Login_phone input{
+    width: 5rem;
+    border: none
+}
+#Login_yzm input{
+    width: 2rem;
+    border: none
+}
+#Login_content .yd-cell-box{
+    margin-top: .6rem
+}
+#Login_content i{
+    font-size: .45rem;
+    margin-right: .15rem
+}
+.Login_item{
+    display: flex;
+    align-items: center
+}
+#Login_content .yd-cell:after{
+    border-bottom: 0 !important
+  }
+  #Login_content .yd-cell-item:not(:last-child):after{
+   border-bottom: 0 !important
+  }
+  #Login_content .yd-cell-item{
+      padding: 0;
+      border-bottom: .02rem solid #dddddd;
+      margin-bottom: .2rem
+  }
+  

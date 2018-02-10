@@ -1,0 +1,114 @@
+#noOrd{
+    width: 1.5rem;
+    height: 2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 3rem;
+    margin: 0 auto;    
+    font-size: .30rem;
+    text-align: center;
+    img{
+        width: 100%;
+    }
+}
+.orderitem{
+    font-family: PingFang-SC-Regular;
+    background: #fff;
+    margin-bottom: .2rem;
+    .orderone{
+        padding: 0 .28rem;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: .28rem;
+        height: .8rem;
+        line-height: .8rem;
+        cursor: pointer;
+        .oneleft{
+            color: #333333;
+            line-height: .8rem;
+        }
+        .oneright{
+            color: #CBA162;
+            line-height: .8rem;
+        }
+    }
+    .ordertwo{
+        padding: .25rem .28rem .2rem;
+        box-sizing: border-box;
+        display: flex;
+        background: #F9F9F9;
+        cursor: pointer;
+        img{
+            width: 1.4rem;
+            height: 1.4rem;
+            margin-right: .2rem;
+        }
+        .tworight{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .name{
+                font-size: .32rem;
+                color: #333333;
+            }
+            .price{
+                color: #F76260;
+                font-size: .28rem;
+            }
+            .time{
+                color: #666666;
+                font-size: .26rem;
+            }
+        }
+        // justify-content: space-between;
+    }
+    .orderthree{
+        padding: .2rem .28rem 0;
+        box-sizing: border-box;
+        border-bottom: .02rem solid #dddddd;
+        .threeup{
+            font-size: .28rem;
+            color: #666666;
+            height: .6rem;
+            line-height: .6rem;
+            text-align: right;
+            span:nth-child(3){
+                color: #F76260
+            }
+        }
+        .threedown{
+            font-size: .26rem;
+            color: #333333;
+            height: .6rem;
+            line-height: .6rem;
+            text-align: right;
+        }
+    }
+    .orderfour{
+        height: .8rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        div{
+            width: 1.7rem;
+            height: .56rem;
+            border: .02rem solid #dddddd;
+            font-size: .28rem;
+            color: #666666;
+            border-radius: .3rem;
+            text-align: center;
+            line-height: .56rem;
+            box-sizing: border-box;
+            margin-right: .2rem;
+            cursor: pointer;
+        }
+        .zf{
+            color: #ffffff;
+            border: none;
+            background: #F76260;
+        }
+    }
+}

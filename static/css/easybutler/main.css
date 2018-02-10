@@ -1,0 +1,17 @@
+/* .mint-swipe-indicator{
+    width: .4rem;
+    height: .12rem;
+    background: url(../img/swiper.png);
+    background-size: 100% 100%;
+    opacity: 1;
+}
+.mint-swipe-indicator.is-active{
+    background: url(../img/swipercheck.png);
+    background-size: 100% 100%;
+} */
+#Package_head img{
+    width: 100% !important;
+}
+#Serdetail img,#Serdetail p{
+    width: 100% !important;
+}

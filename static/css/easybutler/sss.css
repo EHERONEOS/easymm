@@ -1,0 +1,84 @@
+#head {
+  padding: .4rem .3rem;
+  box-sizing: border-box;
+  font-family: PingFangSC-Regular;
+  color: #333333;
+  letter-spacing: 0.04px;
+}
+#head h1 {
+  font-size: .48rem;
+  margin-bottom: .2rem;
+}
+#head pre {
+  font-size: .28rem;
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+  *white-space: normal!important;
+}
+#body {
+  padding: .4rem .3rem;
+  box-sizing: border-box;
+}
+#body .Dateitem {
+  height: 2.1rem;
+  background: #F4F4F4;
+  border-radius: .06rem;
+  margin-bottom: .4rem;
+  padding: .3rem .2rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#body .Dateitem .Date {
+  display: flex;
+  align-items: flex-end;
+}
+#body .Dateitem .Date .Date1 {
+  font-family: PingFangSC-Regular;
+  color: #333333;
+  letter-spacing: 0.06px;
+  width: 1.7rem;
+  text-align: center;
+  margin-right: .2rem;
+}
+#body .Dateitem .Date .Date1 div:nth-child(1) span:nth-child(1) {
+  font-size: .7rem;
+}
+#body .Dateitem .Date .Date1 div:nth-child(1) span:nth-child(2) {
+  font-size: .44rem;
+}
+#body .Dateitem .Date .Date1 div:nth-child(2) {
+  height: .5rem;
+  font-size: 0.36rem;
+}
+#body .Dateitem .Date .Date2 {
+  font-family: PingFangSC-Regular;
+  font-size: .28rem;
+  color: #333333;
+  letter-spacing: 0.02px;
+  text-align: center;
+}
+#body .Dateitem .servicezt {
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  letter-spacing: 0.02px;
+  height: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#body .Dateitem .servicezt div:nth-child(1) {
+  color: #666666;
+  text-align: right;
+}
+#body .Dateitem .servicezt div:nth-child(2) {
+  width: 1.7rem;
+  height: .56rem;
+  background: #F76260;
+  border-radius: 2rem;
+  color: #fff;
+  line-height: .56rem;
+  text-align: center;
+  cursor: pointer;
+}

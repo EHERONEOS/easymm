@@ -1,0 +1,97 @@
+#head{
+    width: 100%;
+    height: 1.3rem;
+    overflow-x: scroll;
+    .Datearr{    
+        display: flex;
+        .Dateitem{
+            width: 1.74rem;
+            font-size: .24rem;
+            height: 1rem;
+            background: #F4F4F4;
+            text-align: center;
+            line-height: .34rem;
+            padding: .16rem 0;
+            box-sizing: border-box;
+            z-index: 10;
+            cursor: pointer;
+        }
+        .checkdate{
+            background: #f76260;
+            color: #ffffff;
+            position: relative;
+        }
+        .checkdate:after{
+            content: '';
+            border: .13rem solid #f76260;
+            border-color: #f76260 transparent transparent;
+            width: 0;
+            height: 0;
+            position: absolute;
+            bottom: -0.26rem;
+            left: 0;
+            left: 50%;
+            margin-left: -0.13rem;  
+        }
+    }
+    
+}
+::-webkit-scrollbar {/*隐藏滚轮*/
+    display: none;
+}
+
+#Day{
+    
+    table{
+        
+        border-collapse: collapse;
+        width: 100%;
+        td{
+            justify-content: center;
+            flex-wrap: wrap;
+            align-content: center;
+            background: #ffffff;
+            border: .02rem solid #DDDDDD;
+            box-sizing: border-box;
+            font-family: PingFangSC-Regular;
+            font-size: .24rem;
+            color: #999;
+            letter-spacing: 0.03px;
+            line-height: .34rem;
+            width: 1.74rem;
+            height: 1.2rem;
+            cursor: pointer;
+            div{
+                width: 100%;
+                text-align: center
+            }
+            input{
+                display: none
+            }
+        }
+        .disabled{
+            background: #F4F4F4;
+        }
+        .checked{
+            background: #f76260;
+            color: #ffffff;
+        }
+    }
+}
+#bottom{
+    height: 1.2rem;
+}
+#foot{
+    height: .96rem;
+    width: 100%;
+    line-height: .96rem;
+    text-align: center;
+    background: #f76260;
+    font-family: PingFangSC-Regular;
+    font-size: .36rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    position: fixed;
+    bottom: 0;
+    cursor: pointer;
+}
